@@ -16,7 +16,7 @@ BasicGame key_handler=Pulse
             lright > orientation=RIGHT img=newset/laser1_1
             lleft > orientation=LEFT img=newset/laser1_1
 
-        boulder > Missile color=BLUE singleton=True img=oryx/orb2
+        boulder > Missile color=BLUE singleton=True img=oryx/orb2 shrinkfactor=0.3
         wall > Immovable img=oryx/wall3 autotiling=True
 
     LevelMapping
