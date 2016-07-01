@@ -11,7 +11,8 @@ BasicGame key_handler=Pulse  square_size=50
         avatar > MovingAvatar img=newset/girl3
         	inBlack > img=newset/girl2
         	inWhite > img=newset/girl1
-        	inGrey > 
+        	inGrey >
+        wall > Immovable img=oryx/dirtwall autotiling=True
     
     LevelMapping
         . > black
